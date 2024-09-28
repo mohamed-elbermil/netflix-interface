@@ -6,14 +6,18 @@
   text-decoration: none;
 }
 
+p{
+  color: var(--primary-color);
+}
+
 main {
-  background: #141414;
+  background: var(--bgc-color);
   color: #fff;
 }
 
 /* Bannière Accueil */
 #banniere {
-  /* background-image: url('../img/stranger2.jpg'); */
+  filter: brightness(0.5);
   background-repeat: no-repeat;
   background-size: cover;
   height: 44em;
@@ -215,6 +219,8 @@ nav a:hover {
 /*Liste de films*/
 .Movies {
   display: flex;
+  overflow: hidden;
+  margin: var(--margin-items);
 }
 .image-item{
   margin: 0 1px;
