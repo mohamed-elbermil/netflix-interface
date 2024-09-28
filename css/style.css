@@ -156,11 +156,6 @@ nav a:hover {
 
 /* Bannière Netflix */
 
-.carousel-item img {
-  width: 15em !important;
-  margin: 0 3px;
-}
-
 /* card */
 
 .icon_Netflix {
@@ -180,22 +175,9 @@ nav a:hover {
   display: none;
 }
 
-.card-img-top:hover {
-  width: 334px !important;
-  height: 12em;
-}
-
 .card-img-top:hover + .card-body {
   display: block;
 }
-
-.card-img-top:hover + .movieNcard {
-  width: 21em;
-}
-
-/* .card-img-top:focus-visible{
-        margin: 3em;
-    } */
 
 .card-img-top:hover + #ff6 {
   display: none;
@@ -230,8 +212,12 @@ nav a:hover {
   width: 2%;
 }
 
+/*Liste de films*/
 .Movies {
   display: flex;
+}
+.image-item{
+  margin: 0 1px;
 }
 
 /* boutton bannière */
@@ -272,9 +258,10 @@ nav a:hover {
 
 .descriptionNbtn {
   position: absolute;
-  bottom: 10em;
+  bottom: 24em;
   color: #fff;
   width: 35em;
+  left: 3em;
 }
 
 .descriptionNbtn span {
@@ -283,12 +270,12 @@ nav a:hover {
 }
 
 /* section */
-.allSection {
+.all-items {
   margin-top: -114px;
   position: relative;
 }
 
-section {
+.list-items {
   padding: 2em;
   z-index: 8;
   position: relative;
@@ -300,7 +287,6 @@ section img {
   margin-right: 2px;
   cursor: pointer;
   transition-duration: 0.2s;
-  /* border: 1px solid #060710; */
   border-radius: 8px;
   box-shadow: 0 0 41px black;
 }
@@ -308,11 +294,6 @@ section img {
 section img:hover {
   border: 1px solid #e50914;
 }
-
-section img:hover {
-  width: 16em !important;
-}
-
 .All_movie {
   display: flex;
   display: flex;
