@@ -1,0 +1,9 @@
+/*Variables du projet */
+:root {
+    --primary-color:#fff;
+    --secondary-color:#a1a1a1c2;
+    --bgc-color:#141414;
+
+    /* margin */
+    --margin-items:1rem 0px;
+}
