@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "netflix-font-regular";
+  src: url("../font/netflix-font-regular.otf") format("truetype"); /* Format selon le fichier */
+  font-weight: normal; /* Facultatif : définir des poids spécifiques */
+  font-style: normal; /* Facultatif : définir des styles spécifiques */
+}
+:root {
+  --primary-color: #141414;
+  --font-family: "netflix-font-regular";
+  --background-navbar: rgb(0 0 0 / 86%);
+}
