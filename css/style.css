@@ -5,12 +5,10 @@
   list-style-type: none;
   text-decoration: none;
 }
-
 main {
   background: #141414;
   color: #fff;
 }
-
 /* Bannière Accueil */
 #banniere {
   /* background-image: url('../img/stranger2.jpg'); */
@@ -20,7 +18,6 @@ main {
   background-position: center;
   animation: diaporama 7.9s infinite;
 }
-
 @keyframes diaporama {
   0% {
     background-image: url("../img/strangerDoor.png");
@@ -41,7 +38,6 @@ main {
     background-image: url("../img/strangerDoor.png");
   }
 }
-
 nav ul {
   display: flex;
   justify-content: left;
@@ -54,7 +50,6 @@ nav ul {
   width: 100%;
   backdrop-filter: blur(5px);
 }
-
 .iconNav {
   display: flex;
   justify-content: center;
@@ -62,81 +57,59 @@ nav ul {
   position: absolute;
   right: 3em;
 }
-
 i {
   color: #fff;
   font-size: 23px;
   margin: 0 11px;
   cursor: pointer;
 }
-
-/* #pp {
-        width: 1.2em;
-        margin-left: 1em;
-    } */
-
 .progress_Start .progress,
 .progress-stacked {
   height: 3px;
 }
-
 .progress_Start .progress-bar {
   background: #e50914;
 }
-
 .progress_Start {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
-
 .progress {
   width: 98%;
 }
-
-/* ----- */
 #icon-img {
   width: 32px;
   margin-right: 5%;
   border-radius: 6px;
 }
-
 .bi-caret-down-fill {
   color: white;
 }
-
 .icon-nav-bis {
   transition: transform 1s ease;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .show {
   background-color: black;
   opacity: 80%;
 }
-
 .dropdown-item {
   color: white;
 }
-
 .dropdown-menu {
   width: 13em;
 }
-
-/* ----------- */
-
 nav img {
   width: 7em;
 }
-
 nav li {
   margin: 0 1em;
   color: white;
 }
-
 nav a {
   color: #fff;
   transition-duration: 0.3s;
@@ -144,118 +117,90 @@ nav a {
   text-decoration: none;
   font-size: 15px;
 }
-
 nav a:hover {
   color: #c3c3c3;
 }
-
 .row img {
   width: 16em;
   margin: 4em 1px;
 }
-
 /* Bannière Netflix */
-
 .carousel-item img {
   width: 15em !important;
   margin: 0 3px;
 }
-
 /* card */
-
 .icon_Netflix {
   font-size: 2em;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
 .movieNcard .card {
   background: #1c1c1c;
   transition-duration: 0.4s;
   box-shadow: 0 0 45px black;
 }
-
 .card-body {
   display: none;
 }
-
 .card-img-top:hover {
   width: 334px !important;
   height: 12em;
 }
-
 .card-img-top:hover + .card-body {
   display: block;
 }
-
 .card-img-top:hover + .movieNcard {
   width: 21em;
 }
-
-/* .card-img-top:focus-visible{
-        margin: 3em;
-    } */
-
 .card-img-top:hover + #ff6 {
   display: none;
 }
-
 .card-text span {
   color: #74c377;
   font-weight: 700;
   margin: 0 10px 0 15px;
 }
-
 .Theme {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .Theme p {
   font-size: 12px;
   margin: 0;
   color: #cfcfcf;
 }
-
 .Theme hr {
   width: 3em;
   color: white;
   transform: rotate(90deg);
 }
-
 .carousel-control-next,
 .carousel-control-prev {
   width: 2%;
 }
-
 .Movies {
   display: flex;
 }
-
 /* boutton bannière */
-
 .PlayNmoreInfo {
   margin-top: 2em;
   z-index: 33;
 }
-
 .PlayNmoreInfo a {
   text-decoration: none;
   list-style-type: none;
 }
-
 .PlayNmoreInfo a:nth-child(1) {
   background: #fff;
   color: black;
 }
-
 .PlayNmoreInfo a:nth-child(2) {
   background: rgba(161, 161, 161, 0.76);
   color: #fff;
 }
-
 .PlayNmoreInfo a:nth-child(1),
 .PlayNmoreInfo a:nth-child(2) {
   padding: 9px 38px;
@@ -264,36 +209,30 @@ nav a:hover {
   font-weight: 600;
   margin: 0 2px;
 }
-
 .PlayNmoreInfo a:nth-child(1):hover,
 .PlayNmoreInfo a:nth-child(2):hover {
   background: #939393;
 }
-
 .descriptionNbtn {
   position: absolute;
   bottom: 10em;
   color: #fff;
   width: 35em;
 }
-
 .descriptionNbtn span {
   font-size: 2em;
   font-weight: 500;
 }
-
 /* section */
 .allSection {
   margin-top: -114px;
   position: relative;
 }
-
 section {
   padding: 2em;
   z-index: 8;
   position: relative;
 }
-
 section img {
   width: 15em;
   height: 9em;
@@ -304,40 +243,28 @@ section img {
   border-radius: 8px;
   box-shadow: 0 0 41px black;
 }
-
 section img:hover {
   border: 1px solid #e50914;
 }
-
-section img:hover {
-  width: 16em !important;
-}
-
 .All_movie {
   display: flex;
   display: flex;
   overflow: hidden;
 }
-
 .top img {
   height: 18em;
 }
-
 /* Image & Chiffre */
-
 .imgNchiffre {
   display: flex;
   margin-left: 8em;
 }
-
 .imgNchiffre img {
   position: relative;
 }
-
 .imgNchiffre p {
   position: absolute;
   z-index: -1;
-  left: em;
   font-size: 24em;
   bottom: -101px;
   -webkit-text-stroke: 3px;
@@ -345,9 +272,7 @@ section img:hover {
   color: #060710;
   left: 27px;
 }
-
 /* Connexion */
-
 .users {
   display: flex;
   justify-content: center;
@@ -356,35 +281,28 @@ section img:hover {
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 .users div {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-
 .users p {
   font-size: 18px;
   margin-top: 12px;
   color: grey;
 }
-
 .users h1 {
   margin-bottom: 0.3em;
   font-size: 4em;
 }
-
 .users img {
   width: 13em;
 }
-
 .users img:hover {
   border: solid 6px #fff;
 }
-
 /* Footer */
-
 footer {
   background: #141414;
   display: Flex;
@@ -393,7 +311,6 @@ footer {
   padding: 8em 9em;
   font-size: 13px;
 }
-
 .bloc_footer {
   display: flex;
   flex-direction: column;
@@ -401,18 +318,14 @@ footer {
   color: #878787;
   cursor: pointer;
 }
-
 .bloc_footer p:hover {
   text-decoration: underline;
 }
-
 .reseaux {
   margin-bottom: 13px;
   cursor: pointer;
 }
-
 /* -Page Film-- */
-
 .banniere_film {
   background-image: url("../img/stranger2.jpg");
   background-repeat: no-repeat;
@@ -421,7 +334,6 @@ footer {
   position: relative;
   height: 21em;
 }
-
 .coverNtext img {
   height: 21em;
   width: 15em;
@@ -431,34 +343,28 @@ footer {
   left: 5em;
   transition-duration: 0.4s;
 }
-
 .coverNtext img:hover {
   border: none;
   box-shadow: 10px 10px 0 #960c0f;
 }
-
 .critique {
   position: absolute;
   left: 7em;
 }
-
 .critiqueNtext {
   display: flex;
   justify-content: center;
   padding-top: 7em;
   position: relative;
 }
-
 ::selection {
   background-color: #960c0f;
   color: #fff;
 }
-
 .text {
   width: 71em;
   margin-left: 13em;
 }
-
 .trailerserie {
   display: flex;
   justify-content: center;
@@ -467,32 +373,26 @@ footer {
   width: 62em;
   margin-left: 13em;
 }
-
 .trailerserie h1 {
   margin-bottom: 1em;
 }
-
 .trailerserie iframe {
   width: 62em;
   height: 29em;
   margin-top: 1em;
 }
-
 .imgNtext {
   display: flex;
   align-items: center;
   margin: 2em 0;
   cursor: pointer;
 }
-
 .img_critique img {
   width: 84px;
 }
-
 .imgNtext p {
   margin-bottom: 0;
 }
-
 .video-bg {
   width: 100%;
   margin: 0;
