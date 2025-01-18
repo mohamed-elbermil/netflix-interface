@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Netflix-Medium'; /* Nom de la police */
+    src: url('../fonts/NetflixSans-Medium.otf') format('opentype'); /* Chemin vers le fichier de police */
+}
+
 /*Variables du projet */
 :root {
     --primary-color:#fff;
@@ -5,5 +10,11 @@
     --bgc-color:#141414;
 
     /* margin */
-    --margin-items:1rem 0px;
+    --margin-items: 1rem 0px;
+
+    /* Font */
+    --font-netflix-medium:'Netflix-Medium';
+
+    /* Size */
+    --font-title: 33px;
 }

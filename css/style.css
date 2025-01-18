@@ -6,6 +6,12 @@
   text-decoration: none;
 }
 
+h1{
+  color: var(--primary-color);
+  font-family: var(--font-netflix-medium);
+  font-size: var(--font-title)!important;
+}
+
 p{
   color: var(--primary-color);
 }
@@ -15,7 +21,7 @@ main {
   color: #fff;
 }
 
-/* Bannière Accueil */
+/* Header */
 #banniere {
   filter: brightness(0.5);
   background-repeat: no-repeat;
@@ -74,10 +80,17 @@ i {
   cursor: pointer;
 }
 
-/* #pp {
-        width: 1.2em;
-        margin-left: 1em;
-    } */
+.pegi-16{
+  background-color: rgba(51, 51, 51, .6);
+  position: absolute;
+    bottom: 16em;
+    right: 0em;
+    border-left-style: solid;
+    font-size: 1.1vw;
+    padding: .5vw 3.5vw .5vw .8vw;
+    color: var(--primary-color);
+    cursor: context-menu;
+}
 
 .progress_Start .progress,
 .progress-stacked {
