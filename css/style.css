@@ -7,7 +7,8 @@
   font-family: var(--font-family);
 }
 main {
-  background: var(--primary-color);
+  background: linear-gradient(360deg, #141414, #000000);
+  padding-left: 60px;
   color: #fff;
 }
 /* Bannière Accueil */
@@ -17,9 +18,22 @@ main {
   background-size: cover;
   height: 44em;
   background-position: center;
-  animation: diaporama 7.9s infinite;
+  /* animation: diaporama 7.9s infinite; */
 }
-@keyframes diaporama {
+
+#banniere iframe {
+  width: 100vw;
+  height: 81vh;
+  object-fit: cover;
+}
+
+.video-stream.html5-main-video {
+  width: 100%;
+  height: 592px;
+  left: 0;
+  top: 0px;
+}
+/* @keyframes diaporama {
   0% {
     background-image: url("../img/strangerDoor.png");
   }
@@ -38,7 +52,7 @@ main {
   100% {
     background-image: url("../img/strangerDoor.png");
   }
-}
+} */
 nav ul {
   display: flex;
   justify-content: left;
@@ -230,7 +244,6 @@ nav a:hover {
   position: relative;
 }
 section {
-  padding: 2em;
   z-index: 8;
   position: relative;
 }
