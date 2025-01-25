@@ -20,7 +20,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="./img/Netflix_icon.svg.webp" />
+    <link rel="icon" type="image/png" href="./img//favicon.png" />
     <title>Netflix | Accueil</title>
   </head>
   <body>
