@@ -63,6 +63,38 @@ i {
   margin: 0 11px;
   cursor: pointer;
 }
+.bi.bi-caret-down-fill {
+  font-size: 12px;
+}
+.menu-drop-down {
+  display: none!important;
+  background: #000000ad;
+  color: #fff;
+  padding: 2em;
+  position: absolute;
+  top: 60px;
+  right: 2em;
+  width: 20em;
+  gap: 21px;
+  display: flex;
+  flex-direction: column;
+}
+.dropdown {
+  padding: 10px 0;
+
+  &:hover .menu-drop-down  {
+    display: flex!important;
+  }
+}
+.element-menu-drop-down {
+  display: flex;
+  align-items: center;
+  img {
+    width: 36px;
+    border-radius: 5px;
+  }
+  
+}
 
 #icon-img {
   width: 32px;

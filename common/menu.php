@@ -21,10 +21,32 @@
                 <div class="icon-nav-bis">
                   <img
                     id="icon-img"
-                    src="https://occ-0-56-55.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABTznvQlDlb-DTY57Bj9r25bgufQrWczbgk5vxk1gOjBtI9GDbRZrOohvgoY3gzb1b7GnSTJ5Ly0_xl-MOQGQJD8nYZ3bwoc.png?r=a16"
+                    src="./img/profile.png"
                     alt="profile-icon"
                   />
                   <i class="bi bi-caret-down-fill"></i>
+                  <div class="menu-drop-down">
+                    <div class="element-menu-drop-down">
+                        <img src="./img/jeunesse.png" alt="">
+                        <p>Jeunesse</p>
+                    </div>
+                    <div class="element-menu-drop-down">
+                        <img src="./img/jeunesse.png" alt="">
+                        <p>Gérer les profils</p>
+                    </div>
+                    <div class="element-menu-drop-down">
+                        <img src="./img/jeunesse.png" alt="">
+                        <p>Transférer un profil</p>
+                    </div>
+                    <div class="element-menu-drop-down">
+                        <img src="./img/jeunesse.png" alt="">
+                        <p>Compte</p>
+                    </div>
+                    <div class="element-menu-drop-down">
+                        <img src="./img/jeunesse.png" alt="">
+                        <p>Centre d'aide</p>
+                    </div>
+                  </div>
                 </div>
               </button>           
             </div>
