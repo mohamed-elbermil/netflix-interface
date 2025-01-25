@@ -61,3 +61,13 @@ shuffleArray(carousel)
 shuffleArray(carousel2)
 displayAllImages(carousel);
 displayAllImages(carousel2);
+
+// Barre de recherche
+    // Sélection des éléments
+    const searchIcon = document.querySelector('.search-icon');
+    const inputSearch = document.querySelector('.input-search');
+
+    // Ajout de l'événement de clic
+    searchIcon.addEventListener('click', () => {
+    inputSearch.classList.toggle('expanded'); // Ajouter ou supprimer la classe "expanded"
+});

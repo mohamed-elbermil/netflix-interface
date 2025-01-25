@@ -159,7 +159,32 @@ nav a {
   transition-duration: 0.3s;
   list-style-type: none;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 14px;
+}
+
+.input-search {
+  font-size: 14px;
+  background: #000005;
+  position: relative;
+  color: #ffffff;
+  width: 0px;
+  padding: 8px 23px;
+  border: none;
+  transition: .4s;
+}
+
+.input-search.expanded {
+  padding: 8px 41px;
+  width: 22em;
+  border: solid 1px #fff;
+
+
+
+}
+
+.search-icon {
+  position: absolute;
+  left: 0;
 }
 
 nav a:hover {
@@ -493,10 +518,17 @@ footer {
   margin-bottom: 0;
 }
 
+.video-container {
+  overflow: hidden;
+    position: relative;
+    height: 54em;
+    position: absolute;
+    z-index: -11;
+    width: 100%;
+}
+
 .video-bg {
   width: 100%;
   margin: 0;
-  position: absolute;
-  z-index: 0;
   filter: blur(50px);
 }
