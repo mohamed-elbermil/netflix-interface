@@ -10,12 +10,23 @@
 <body>
     <main>
        
-        <div class="users"> 
-            <h1>Qui est-ce ?</h1>
-            <div>
-                 <a href="index.html"> <img src="./img/Flat3.png" alt=""></a>
+        <h1>Qui est-ce ?</h1>
+        <div class="users-container"> 
+            <div class="user">
+                 <a href="index.html"><img src="./img/avatar/blue-avatar.jpg" alt="profile"></a>
                  <p>Mohamed </p>
-
+            </div>
+            <div class="user">
+                 <a href="index.html"><img src="./img/avatar/red-avatar.jpg" alt="profile"></a>
+                 <p>Thomas </p>
+            </div>
+            <div class="user">
+                 <a href="index.html"><img src="./img/avatar/green-avatar.jpg" alt="profile"></a>
+                 <p>John </p>
+            </div>
+            <div class="user">
+                 <a href="#"><img src="." alt="ajouter un profil"></a>
+                 <p>Ajouter un profile </p>
             </div>
         </div>
     </main>

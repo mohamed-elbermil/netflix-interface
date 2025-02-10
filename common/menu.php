@@ -1,6 +1,6 @@
 <nav>
         <ul>
-          <img src="img/Netflix.png" alt="" />
+          <a href="./index.php"><img src="img/Netflix.png" alt="" /></a>
           <li><a href="./index.php">Accueil</a></li>
           <li><a href="#">Série</a></li>
           <li><a href="./film.php">Films</a></li>

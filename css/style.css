@@ -419,4 +419,16 @@ footer {
   filter: blur(50px);
 }
 
-/*# sourceMappingURL=style.css.map */
+/* ----Connexion */
+.users-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.user {
+  margin: 0 3em;
+}
+.users-container img {
+  width: 17em;
+}
