@@ -1,0 +1,20 @@
+nav {
+    background: rgb(12, 11, 11);
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    padding: 1em 2em;
+}
+
+.netflix {
+    width: 8em;
+}
+
+a {
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    gap: 2em;
+}
