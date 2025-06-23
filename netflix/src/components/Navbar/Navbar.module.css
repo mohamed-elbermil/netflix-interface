@@ -8,13 +8,14 @@ nav {
 
 .netflix {
     width: 8em;
+    margin-right: 3em;
 }
-
-a {
-    color: #fff;
-}
-
 nav ul {
     display: flex;
     gap: 2em;
+}
+
+.leftElement {
+    display: flex;
+    align-items: center;
 }

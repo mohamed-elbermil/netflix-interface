@@ -7,6 +7,7 @@ const Navbar = () => {
   return (
     <>
     <nav>
+      <div className={style.leftElement}>
         <img src={Netflix} alt="Logo Netflix" className={style.netflix}/>
         <ul>
             <li><a href="#">Accueil</a></li>
@@ -16,6 +17,7 @@ const Navbar = () => {
             <li><a href="#">Ma liste</a></li>
             <li><a href="#">Explorer ma langue</a></li>
         </ul>
+      </div>
         <ul>
             <i class="fa-solid fa-magnifying-glass"></i>    
             <i class="fa-solid fa-bell"></i>
