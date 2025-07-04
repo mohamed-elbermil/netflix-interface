@@ -7,6 +7,7 @@ const Navbar = () => {
   return (
     <>
     <nav>
+      <div className={style['left-element']}>
         <img src={Netflix} alt="Logo Netflix" className={style.netflix}/>
         <ul>
             <li><a href="#">Accueil</a></li>
@@ -16,12 +17,13 @@ const Navbar = () => {
             <li><a href="#">Ma liste</a></li>
             <li><a href="#">Explorer ma langue</a></li>
         </ul>
-        <ul>
+      </div>
+        <ul className={style["right-element"]}>
             <i class="fa-solid fa-magnifying-glass"></i>    
             <i class="fa-solid fa-bell"></i>
             <div className="avatar">
                 <img src={Avatar} alt="" className={style.avatar}/>
-                <i>icon</i>
+                <i class="fa-solid fa-chevron-down"></i>
             </div>    
         </ul>
     </nav>

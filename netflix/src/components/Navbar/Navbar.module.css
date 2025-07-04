@@ -18,3 +18,20 @@ nav ul {
     display: flex;
     gap: 2em;
 }
+
+nav i {
+    color: #fff;
+    font-size: 17px;
+}
+
+.left-element {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+
+.right-element {
+    color: #fff;
+    display: flex;
+    align-items: center;
+}

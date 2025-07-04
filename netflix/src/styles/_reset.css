@@ -1,0 +1,103 @@
+* {
+
+}/* RESET CSS moderne */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Supprime les marges par défaut */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Supprime la liste par défaut */
+ul[role='list'],
+ol[role='list'],
+ul,
+ol {
+  list-style: none;
+}
+
+/* Fixe une hauteur minimum à 100% */
+html,
+body {
+  height: 100%;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Supprime la décoration de lien par défaut */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Héritage de font pour les éléments form */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Supprime les animations si utilisateur préfère */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Images et médias responsives par défaut */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Supprime les styles de bouton natifs */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Empêche l'overflow horizontal */
+body {
+  overflow-x: hidden;
+}
+
+/* Sélection de texte plus élégante */
+::selection {
+  background-color: #000;
+  color: #fff;
+}
