@@ -1,3 +1,9 @@
 h1 {
     background: red;
 }
+
+header {
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
